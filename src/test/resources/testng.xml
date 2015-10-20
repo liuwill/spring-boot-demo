@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+    <test name="TestUnit" enabled="true">
+        <groups>
+            <run>
+                <include name="hello" />
+                <include name="data" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.liuwill.testng.HelloControllerTest" />
+            <class name="com.liuwill.testng.DataControllerTest" />
+        </classes>
+    </test>
+
+    <test name="TestIntegr" enabled="false">
+        <groups>
+            <run>
+                <include name="hello" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.liuwill.testng.HelloControllerIT" />
+        </classes>
+    </test>
+</suite>
