@@ -1,6 +1,7 @@
 # spring-boot-demo
 > 演示spring boot的使用，结合supervisor运行
 > 该项目使用Gradle进行构建项目，并且简单使用了testNG做单元测试
+> 使用Jenkins和Ansible进行集成的演示网址:[Demo](http://120.25.209.132:8899/)
 
 
 ## 项目说明
