@@ -2,4 +2,4 @@ language: java
 
 install: 
    - gradle clean build
-exit
+   - exit
